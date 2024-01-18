@@ -11,5 +11,5 @@ participant server
     server-->>browser: response 201 created
     deactivate server
 
-    Note right of browser: The browser does not redirect to /spa. Instead, the JavaScript code generates an eventhandler which gets the content of the form and adds the new note to the list.
+    Note right of browser: The browser does not redirect to /spa.<br/>Instead, the JavaScript code generates an eventhandler which<br/>gets the content of the form and adds the new note to the list.
 ```
