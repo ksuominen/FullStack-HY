@@ -8,7 +8,7 @@ participant server
 
     Note right of browser: The browser sends the content of the note to /new_note_spa
 
-    server-->>browser: response: 201 created
+    server-->>browser: response 201 created
     deactivate server
 
     Note right of browser: The browser does not redirect to /spa. Instead, the JavaScript code generates an eventhandler which gets the content of the form and adds the new note to the list.
